@@ -1,0 +1,146 @@
+body {
+	background-color: #222;
+	color: white;
+	font-family: 'Balsamiq Sans', cursive;
+	padding: 0;
+	margin: 0;
+}
+
+
+div, p, a, img, form, button {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none; /* убирает подчеркивания */
+}
+
+ul, li {
+	display: block;   /* делает элемент строчным  */
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background: url(../img/back.png) no-repeat center top / cover;
+	padding-bottom: 300px;
+}
+
+.container {
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.menu {
+	display: flex; /* пункты меню выравнились */
+	margin-left: 400px; /* подвинули меню */
+	padding-bottom: auto;
+}
+
+.menu li {
+	font-size: 20px; /* размер пунктов li */
+	margin-right: 40px; /* отступы между меню */
+}
+
+.menu li a {
+	color: #fff;
+	padding: 12px 0;
+}
+
+.menu li.active a,
+.menu li a:hover {  /* меню выделяется при наведении и увеличевается */
+	color: #6bff3d;
+	border-top: 1px solid #6bff3d;
+	border-bottom: 1px solid #6bff3d;
+	font-size: 25px;
+	transition: all 0.5s ease;
+}
+
+.offer-content {
+	font-family: 'Balsamiq Sans', cursive;
+	text-align: center;
+}
+
+.offer-content h1 {
+	margin-top: 100px;
+	font-size: 100px;
+}
+
+.offer-content p {
+	margin-top: 50px;
+	font-size: 40px;
+}
+
+.offer-content a {
+	background-color: brown;
+	color: white;
+	font-size: 25px;
+	border-radius: 20px;
+	display: block;
+	width: 300px;
+	padding: 10px 0;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 100px;
+	transition: all 0.5s ease; /* при наведении увеличивается */
+}
+
+.offer-content a:hover {
+	background: blue;
+}
+
+.logo {
+	margin-top: 20px;
+	border-radius: 50%;
+}
+
+.cler {
+	height: 100px;
+}
+
+.title {
+	text-align: center;
+	margin-top: 170px;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+.comment {
+	margin-top: 170px;
+	text-align: center;
+	padding-bottom: 700px;
+}
+
+.yard {
+	background: url(../img/comment.png) no-repeat center top / cover;
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  padding: 40px 0 5px 0;
+  text-align: center;
+  background-color: gray;
+  color: #fff;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-width: 100px;
+  margin-top: 300px;
+
+}
+
+
+footer a {
+	color: #fff;
+	transition: all 0.5s ease;
+}
+
+footer a:hover {
+	color: blue;
+}
+
+
+
+
